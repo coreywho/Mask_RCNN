@@ -28,6 +28,9 @@ class Config(object):
     # NUMBER OF GPUs to use. For CPU training, use 1
     GPU_COUNT = 1
 
+    # PERCENT of GPU memory to allocate for training
+    GPU_MEMORY_PERCENT = 1.0
+
     # Number of images to train with on each GPU. A 12GB GPU can typically
     # handle 2 images of 1024x1024px.
     # Adjust based on your GPU memory and image sizes. Use the highest
